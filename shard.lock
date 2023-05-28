@@ -1,0 +1,14 @@
+version: 2.0
+shards:
+  crecto:
+    git: https://github.com/xtokio/crecto.git
+    version: 0.12.1+git.commit.87cb1c43badc71902e1b3c8ac8989026b01c6584
+
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.11.0
+
+  sqlite3:
+    git: https://github.com/crystal-lang/crystal-sqlite3.git
+    version: 0.19.0
+

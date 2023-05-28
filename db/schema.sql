@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+
+CREATE TABLE IF NOT EXISTS "data" (
+  "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  "name"	  TEXT NOT NULL,
+  "username"	  TEXT NOT NULL,
+  "password"	  TEXT NOT NULL,
+  "tag"	        TEXT NOT NULL DEFAULT '',
+  "created_at"	TEXT NOT NULL DEFAULT '',
+  "updated_at"	TEXT NOT NULL DEFAULT ''
+);
+
+COMMIT;

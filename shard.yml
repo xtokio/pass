@@ -1,0 +1,19 @@
+name: pass
+version: 0.1.0
+
+authors:
+  - xtokio <xtokio@gmail.com>
+
+targets:
+  pass:
+    main: src/pass.cr
+
+dependencies:
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+  crecto:
+    github: xtokio/crecto
+
+crystal: 1.8.2
+
+license: MIT
